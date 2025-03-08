@@ -3,7 +3,7 @@ import './App.css';
 import About from './About.js';
 import Home from './Home.js';
 import Contact from './Contact.js';
-
+import EngineeringTopics from './EngineeringTopics.js';
 
 function getDate(){
   let date= new Date()
@@ -24,6 +24,7 @@ function App() {
       <Home title="Home Page" description="Welcome to our Website"></Home>
       <About title="About Us" description="We are passionate about delivering quality experiences"></About>
       <Contact title="Contact Us" description="Feel free to reach out to us via email or phone"></Contact>
+      <EngineeringTopics></EngineeringTopics>
     </div>
   );
 }
